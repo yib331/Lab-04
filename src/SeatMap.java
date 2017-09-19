@@ -12,7 +12,7 @@ import java.util.*;
 public class SeatMap {
 	
 	private int row = 6;
-	private int colume = 5;
+	private int colume = 6;
 	String[][] seat = new String [row][colume];
 	
 	public void scanner(){
@@ -60,6 +60,5 @@ public class SeatMap {
 		System.out.println(map.findname(r,c));
 		
 
-	}
-
+	} 
 }
